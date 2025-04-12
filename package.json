@@ -1,0 +1,15 @@
+{
+  "name": "botcore-devenv",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+  },
+  "engines": {
+    "node": ">=18.10.0"
+  },
+  "engineStrict": true,
+  "keywords": [],
+  "author": "HACKERPRO17",
+  "license": "ISC",
+  "description": "Module development environment for BotCore"
+}
