@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "NodeNext",
+    "declaration": true,
+    "outDir": "./build/tsc",
+    "rootDir": "./src",
+    "strict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "moduleResolution": "nodenext",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "@core": ["./src/core/core.js"],
+      "@core/*": ["./src/core/*"],
+      "@init/*": ["./src/init/*"],
+      "@system-modules/*": ["./src/system-modules/*"],
+      "@util/*": ["./src/util/*"],
+    }
+  }
+}
