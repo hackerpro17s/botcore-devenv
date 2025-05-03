@@ -16,11 +16,16 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "paths": {
-      "@core": ["./src/core/core.js"],
-      "@core/*": ["./src/core/*"],
-      "@init/*": ["./src/init/*"],
-      "@system-modules/*": ["./src/system-modules/*"],
-      "@util/*": ["./src/util/*"],
+      "@core": ["./BotCore/src/core/core.js"],
+      "@core/*": ["./BotCore/src/core/*"],
+      "@init/*": ["./BotCore/src/init/*"],
+      "@system-modules/*": ["./BotCore/src/system-modules/*"],
+      "@util/*": ["./BotCore/src/util/*"],
     }
-  }
+  },
+  "references": [
+    {
+      "path": "./BotCore"
+    }
+  ]
 }
