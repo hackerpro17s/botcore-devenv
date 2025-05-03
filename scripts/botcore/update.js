@@ -6,6 +6,8 @@ const CHECKOUT_COMMIT = '8ac09968686767360e08a16648e8c650eb8019a2'
 
 const BOTCORE_PATH = path.join(process.cwd(), 'BotCore')
 
+execSync(`git submodule update --init`)
+
 execSync(`git clean -f`, {
     cwd: BOTCORE_PATH
 })
