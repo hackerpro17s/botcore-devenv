@@ -1,7 +1,5 @@
 import path from "path";
-import {execSync, spawn, spawnSync} from "child_process";
-import {} from "@tenorium/utilslib"
-import {runCommand} from "@tenorium/utilslib"
+import {spawnSync} from "child_process";
 
 const BOTCORE_PATH = path.join(process.cwd(), 'BotCore')
 

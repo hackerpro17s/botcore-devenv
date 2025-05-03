@@ -10,7 +10,7 @@ execSync(`git clean -f`, {
     cwd: BOTCORE_PATH
 })
 
-Logger.info(`Fethching remote of BotCore repository`)
+Logger.info(`Fetching remote of BotCore repository`)
 
 execSync(`git fetch`, {
     cwd: BOTCORE_PATH

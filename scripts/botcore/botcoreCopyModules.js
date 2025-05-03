@@ -1,4 +1,4 @@
-import fs, {cpSync, existsSync, readdirSync, readFileSync} from 'fs'
+import fs, {cpSync, existsSync, readdirSync} from 'fs'
 import path from "path";
 import {Logger} from "@tenorium/utilslib";
 
@@ -25,7 +25,6 @@ readdirSync(
         withFileTypes: true
     }
 ).forEach(dirContent => {
-    console.log(`dirContent: ${dirContent}`)
     if (!dirContent.isDirectory()) {
         return
     }

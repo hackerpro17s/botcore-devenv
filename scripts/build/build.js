@@ -13,7 +13,7 @@ const ABSTRACT_MODULE_SPECIFIER_NAME = 'AbstractModule';
 const ABSTRACT_MODULE_IMPORT_SOURCE = '@core/moduleSystem/abstractModule.js'
 const ABSTRACT_MODULE_SPECIFIER_TYPE = 'ImportDefaultSpecifier'
 
-execSync('npm run clean',  { stdio: 'inherit' })
+execSync('npm run build:clean',  { stdio: 'inherit' })
 
 Logger.info('Compiling TypeScript...')
 
