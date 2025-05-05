@@ -2,7 +2,7 @@ import {execSync} from "child_process";
 import path from "path";
 import {Logger} from "@tenorium/utilslib";
 
-const CHECKOUT_COMMIT = '8ac09968686767360e08a16648e8c650eb8019a2'
+const CHECKOUT_COMMIT = 'c277fb7b3a2bc430bbfb29118dd2a33644a69035'
 
 const BOTCORE_PATH = path.join(process.cwd(), 'BotCore')
 
